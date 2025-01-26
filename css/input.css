@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@source "../node_modules/flowbite";
+
+
+
+
+.underline-1::after
+{
+
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+}
